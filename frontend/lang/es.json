@@ -1,0 +1,25 @@
+{
+  "title": "Vista desde la ventana",
+  "subtitle": "Vistas cotidianas compartidas por personas de diferentes partes del mundo.",
+  "instruction": "Haz clic en los puntos amarillos para descubrir lo que la gente ve desde sus hogares.",
+
+  "aboutButton": "Acerca del proyecto",
+  "joinButton": "Cómo participar",
+  "privacyButton": "Privacidad",
+
+  "aboutTitle": "Acerca del proyecto",
+  "aboutText1": "A menudo conocemos lugares famosos de otros países, pero rara vez vemos la vida cotidiana.",
+  "aboutText2": "Este proyecto recopila pequeños fragmentos de realidad vistos desde ventanas de todo el mundo.",
+  "aboutText3": "Algunas personas ven bosques. Otras edificios, ríos, tejados, lluvia, cables eléctricos, jardines o calles tranquilas.",
+  "aboutText4": "Cada foto es ordinaria, y precisamente esa es la idea.",
+
+  "joinTitle": "Cómo participar",
+  "joinText": "Toma una foto desde tu ventana, balcón, patio o entorno cotidiano y envíala junto con el nombre de tu país.",
+
+  "privacyTitle": "Privacidad y seguridad",
+  "privacy1": "Nunca se requiere la ubicación exacta.",
+  "privacy2": "Puedes permanecer en el anonimato.",
+  "privacy3": "Tú decides cuánta información compartir.",
+  "privacy4": "Se recopilan análisis anónimos mínimos para entender cómo se utiliza el proyecto.",
+  "privacy5": "Puedes pedir que tu foto sea eliminada más adelante."
+}

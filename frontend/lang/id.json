@@ -1,0 +1,25 @@
+{
+  "title": "Pemandangan dari Jendela",
+  "subtitle": "Pemandangan kehidupan sehari-hari yang dibagikan oleh orang-orang dari berbagai belahan dunia.",
+  "instruction": "Klik titik-titik kuning untuk melihat apa yang orang lihat dari rumah mereka.",
+
+  "aboutButton": "Tentang proyek",
+  "joinButton": "Cara bergabung",
+  "privacyButton": "Privasi",
+
+  "aboutTitle": "Tentang proyek",
+  "aboutText1": "Kita sering mengenal tempat-tempat terkenal dari negara lain, tetapi jarang melihat kehidupan sehari-hari.",
+  "aboutText2": "Proyek ini mengumpulkan potongan kecil kenyataan yang terlihat dari jendela di seluruh dunia.",
+  "aboutText3": "Ada yang melihat hutan. Ada yang melihat gedung apartemen, sungai, atap rumah, hujan, kabel listrik, taman, atau jalan yang tenang.",
+  "aboutText4": "Setiap foto terlihat biasa — dan itulah inti proyek ini.",
+
+  "joinTitle": "Cara bergabung",
+  "joinText": "Ambil foto dari jendela, balkon, halaman, atau lingkungan sehari-harimu lalu kirim bersama nama negaramu.",
+
+  "privacyTitle": "Privasi & keamanan",
+  "privacy1": "Lokasi tepat tidak pernah diwajibkan.",
+  "privacy2": "Kamu bisa tetap anonim.",
+  "privacy3": "Kamu menentukan sendiri informasi yang ingin dibagikan.",
+  "privacy4": "Analitik anonim minimal dikumpulkan untuk memahami bagaimana proyek digunakan.",
+  "privacy5": "Kamu bisa meminta fotomu dihapus kapan saja."
+}

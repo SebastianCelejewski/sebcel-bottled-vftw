@@ -1,0 +1,31 @@
+# =========================
+# Terraform
+# =========================
+
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# Terraform variable overrides / secrets
+*.auto.tfvars
+terraform.tfvars.local
+
+# =========================
+# Node / frontend tooling
+# =========================
+
+node_modules/
+
+# =========================
+# Logs
+# =========================
+
+*.log

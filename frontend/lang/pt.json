@@ -1,0 +1,25 @@
+{
+  "title": "Vista da Janela",
+  "subtitle": "Vistas cotidianas compartilhadas por pessoas de diferentes partes do mundo.",
+  "instruction": "Clique nos pontos amarelos para descobrir o que as pessoas veem de suas casas.",
+
+  "aboutButton": "Sobre o projeto",
+  "joinButton": "Como participar",
+  "privacyButton": "Privacidade",
+
+  "aboutTitle": "Sobre o projeto",
+  "aboutText1": "Muitas vezes conhecemos lugares famosos de outros países, mas raramente vemos a vida cotidiana.",
+  "aboutText2": "Este projeto reúne pequenos fragmentos da realidade vistos através de janelas ao redor do mundo.",
+  "aboutText3": "Algumas pessoas veem florestas. Outras prédios, rios, telhados, chuva, fios elétricos, jardins ou ruas tranquilas.",
+  "aboutText4": "Cada foto é comum — e esse é exatamente o objetivo.",
+
+  "joinTitle": "Como participar",
+  "joinText": "Tire uma foto da sua janela, varanda, quintal ou arredores do dia a dia e envie junto com o nome do seu país.",
+
+  "privacyTitle": "Privacidade e segurança",
+  "privacy1": "A localização exata nunca é necessária.",
+  "privacy2": "Você pode permanecer anônimo.",
+  "privacy3": "Você decide quanta informação deseja compartilhar.",
+  "privacy4": "Análises anônimas mínimas são coletadas para entender como o projeto é utilizado.",
+  "privacy5": "Você pode pedir a remoção da sua foto posteriormente."
+}

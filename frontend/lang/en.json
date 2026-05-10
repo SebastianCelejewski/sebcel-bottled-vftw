@@ -1,0 +1,25 @@
+{
+  "title": "View from the Window",
+  "subtitle": "Ordinary everyday views shared by people from different parts of the world.",
+  "instruction": "Click the yellow dots to explore what people see from their homes.",
+
+  "aboutButton": "About",
+  "joinButton": "How to join",
+  "privacyButton": "Privacy",
+
+  "aboutTitle": "About the project",
+  "aboutText1": "We often know famous places from other countries, but rarely see ordinary everyday life.",
+  "aboutText2": "This project collects small fragments of reality seen through windows around the world.",
+  "aboutText3": "Some people see forests. Some apartment blocks. Some rivers, rooftops, rain, electric wires, gardens, or quiet streets.",
+  "aboutText4": "Every photo is ordinary — and that is exactly the point.",
+
+  "joinTitle": "How to join",
+  "joinText": "Take a photo from your window, balcony, yard, or everyday surroundings and send it together with your country name.",
+
+  "privacyTitle": "Privacy & safety",
+  "privacy1": "Exact location is never required.",
+  "privacy2": "You can stay anonymous.",
+  "privacy3": "You decide how much information to share.",
+  "privacy4": "Minimal anonymous analytics are collected to understand how the project is used.",
+  "privacy5": "You can ask for your photo to be removed later."
+}
