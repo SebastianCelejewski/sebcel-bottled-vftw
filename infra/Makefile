@@ -26,10 +26,18 @@ validate-prod:
 	cd environments/prod && terraform validate
 
 deploy-frontend-dev:
-	aws s3 sync ../frontend/ s3://sebcel-bottled-vftw-website-bucket-dev --delete
+	export ANALYTICS_ENDPOINT=$$(terraform -chdir=environments/dev output -raw analytics_endpoint) && \
+	export MAPBOX_ACCESS_TOKEN=$$(terraform -chdir=environments/dev output -raw mapbox_access_token) && \
+	export WEBSITE_BUCKET=$$(terraform -chdir=environments/dev output -raw website_bucket_name) && \
+	envsubst < ../templates/config.template.js > ../frontend/js/config.js && \
+	aws s3 sync ../frontend/ s3://$$WEBSITE_BUCKET --delete
 
 deploy-frontend-prod:
-	aws s3 sync ../frontend/ s3://sebcel-bottled-vftw-website-bucket-prod --delete
+	export ANALYTICS_ENDPOINT=$$(terraform -chdir=environments/prod output -raw analytics_endpoint) && \
+	export MAPBOX_ACCESS_TOKEN=$$(terraform -chdir=environments/prod output -raw mapbox_access_token) && \
+	export WEBSITE_BUCKET=$$(terraform -chdir=environments/prod output -raw website_bucket_name) && \
+	envsubst < ../templates/config.template.js > ../frontend/js/config.js && \
+	aws s3 sync ../frontend/ s3://$$WEBSITE_BUCKET --delete
 
 invalidate-dev:
 	aws cloudfront create-invalidation --distribution-id E3EZ67JX4T7V79 --paths "/*"

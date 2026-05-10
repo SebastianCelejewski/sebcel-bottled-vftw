@@ -4,7 +4,9 @@ resource "aws_s3_bucket" "website" {
     local.tags,
     {
       Name = var.website_bucket_name
+      component = "website"
     }
+    
   )
 }
 
@@ -14,6 +16,7 @@ resource "aws_s3_bucket" "photos" {
     local.tags,
     {
       Name = var.photos_bucket_name
+      component = "photos"
     }
   )
 }
@@ -107,6 +110,7 @@ resource "aws_cloudfront_distribution" "frontend" {
     local.tags,
     {
       Name = "sebcel-bottled-vftw-website-distribution-${var.environment}"
+      component = "website"
     }
   )
 }

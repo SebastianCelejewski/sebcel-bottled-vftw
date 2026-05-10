@@ -1,5 +1,3 @@
 locals {
-  tags = {
-    component = "website"
-  }
+  tags = {}
 }

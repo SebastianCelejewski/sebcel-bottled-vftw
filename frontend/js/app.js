@@ -13,18 +13,12 @@ async function start() {
 }
 
 function initHeroToggle() {
-
     const hero = document.getElementById('hero');
     const toggle = document.getElementById('heroToggle');
 
     toggle.onclick = () => {
-
         hero.classList.toggle('collapsed');
-
-        toggle.textContent =
-            hero.classList.contains('collapsed')
-                ? '+'
-                : '−';
+        toggle.textContent = hero.classList.contains('collapsed') ? '+' : '−';
     };
 }
 

@@ -1,4 +1,5 @@
 let translations = {};
+let currentLanguage = null;
 
 async function initLanguage(lang) {
     const response = await fetch(`lang/${lang}.json`);
@@ -23,6 +24,14 @@ async function initLanguage(lang) {
             btn.classList.add('active');
         }
 
-        btn.onclick = () => initLanguage(btn.dataset.lang);
+        btn.onclick = () => {
+            const newLanguage = btn.dataset.lang;
+            if (currentLanguage && currentLanguage !== newLanguage) {
+                track("language_changed", {from: currentLanguage, to: newLanguage});
+            }
+            initLanguage(newLanguage);
+        };
     });
+
+    currentLanguage = lang;
 }

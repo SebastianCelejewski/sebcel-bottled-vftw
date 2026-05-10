@@ -11,18 +11,14 @@ function initViewer() {
 function openViewer(photo) {
     document.getElementById('viewerImg').src = '/photos' + photo.image;
     document.getElementById('photoCountry').textContent = photo.country;
-
-    document.getElementById('photoUser').textContent = photo.userName
-        ? 'Shared by ' + photo.userName
-        : '';
-
+    document.getElementById('photoUser').textContent = photo.userName ? 'Shared by ' + photo.userName : '';
     document.getElementById('photoStory').textContent = photo.story || '';
-
     document.getElementById('viewer').classList.remove('hidden');
 
     track('photo_opened', {
-        photoId: photo.id,
-        country: photo.country
+        photoId: photo.image,
+        country: photo.country,
+        source: "marker_popup"
     });
 }
 

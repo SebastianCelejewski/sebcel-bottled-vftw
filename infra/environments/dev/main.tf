@@ -31,3 +31,8 @@ module "frontend" {
   acm_certificate_arn = var.acm_certificate_arn
   web_acl_id = var.web_acl_id
 }
+
+module "analytics" {
+  source = "../../modules/analytics"
+  environment = var.environment
+}

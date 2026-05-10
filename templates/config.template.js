@@ -1,3 +1,4 @@
 window.APP_CONFIG = {
-    mapboxAccessToken: "PUT_MAPBOX_TOKEN_HERE"
+    mapboxAccessToken: "${MAPBOX_ACCESS_TOKEN}",
+    analyticsEndpoint: "${ANALYTICS_ENDPOINT}"
 };

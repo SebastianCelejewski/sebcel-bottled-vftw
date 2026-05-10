@@ -2,6 +2,7 @@ function initOverlays() {
     document.querySelectorAll('[data-overlay]').forEach(button => {
         button.onclick = () => {
             const overlayId = button.dataset.overlay;
+            track("overlay_opened", {overlay: overlayId});
             document.getElementById(overlayId).classList.remove('hidden');
         };
     });

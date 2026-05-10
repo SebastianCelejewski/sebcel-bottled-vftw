@@ -1,7 +1,4 @@
-# =========================
 # Terraform
-# =========================
-
 **/.terraform/*
 *.tfstate
 *.tfstate.*
@@ -18,14 +15,11 @@ override.tf.json
 *.auto.tfvars
 terraform.tfvars.local
 
-# =========================
 # Node / frontend tooling
-# =========================
-
 node_modules/
 
-# =========================
 # Logs
-# =========================
-
 *.log
+
+# Lambda function build artifacts
+*.zip

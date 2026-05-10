@@ -1,7 +1,5 @@
 function track(eventName, payload = {}) {
-    return;
-    
-    fetch('/analytics', {
+    fetch(window.APP_CONFIG.analyticsEndpoint, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
