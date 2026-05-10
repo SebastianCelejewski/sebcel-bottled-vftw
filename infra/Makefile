@@ -26,7 +26,13 @@ validate-prod:
 	cd environments/prod && terraform validate
 
 deploy-frontend-dev:
-	aws s3 sync ../frontend/ s3://sebcel-bottled-vftw-website-bucket-dev
+	aws s3 sync ../frontend/ s3://sebcel-bottled-vftw-website-bucket-dev --delete
 
 deploy-frontend-prod:
-	aws s3 sync ../frontend/ s3://sebcel-bottled-vftw-website-bucket-prod	
+	aws s3 sync ../frontend/ s3://sebcel-bottled-vftw-website-bucket-prod --delete
+
+invalidate-dev:
+	aws cloudfront create-invalidation --distribution-id E3EZ67JX4T7V79 --paths "/*"
+
+invalidate-prod:
+	aws cloudfront create-invalidation --distribution-id E2R8L4WX98I7GA --paths "/*"

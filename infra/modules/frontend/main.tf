@@ -36,8 +36,11 @@ resource "aws_cloudfront_origin_access_control" "photos" {
 
 resource "aws_cloudfront_distribution" "frontend" {
   enabled = true
+  is_ipv6_enabled = true
   default_root_object = "index.html"
+  comment = "sebcel-bottled-vftw-${var.environment}"
   aliases = var.aliases
+  web_acl_id = var.web_acl_id
   origin {
     domain_name = aws_s3_bucket.website.bucket_regional_domain_name
     origin_id = "websiteS3"
@@ -64,12 +67,7 @@ resource "aws_cloudfront_distribution" "frontend" {
     target_origin_id = "websiteS3"
     viewer_protocol_policy = "redirect-to-https"
     compress = true
-    forwarded_values {
-      query_string = false
-      cookies {
-        forward = "none"
-      }
-    }
+    cache_policy_id = "658327ea-f89d-4fab-a63d-7e88639e58f6"
   }
 
   ordered_cache_behavior {
@@ -88,12 +86,7 @@ resource "aws_cloudfront_distribution" "frontend" {
     target_origin_id = "photosS3"
     viewer_protocol_policy = "redirect-to-https"
     compress = true
-    forwarded_values {
-      query_string = false
-      cookies {
-        forward = "none"
-      }
-    }
+    cache_policy_id = "658327ea-f89d-4fab-a63d-7e88639e58f6"
   }
 
   restrictions {
@@ -108,7 +101,7 @@ resource "aws_cloudfront_distribution" "frontend" {
     minimum_protocol_version = "TLSv1.2_2021"
   }
 
-  price_class = "PriceClass_100"
+  price_class = "PriceClass_All"
 
   tags = merge(
     local.tags,
