@@ -9,7 +9,7 @@ function initViewer() {
 }
 
 function openViewer(photo) {
-    document.getElementById('viewerImg').src = '/photos' + photo.image;
+    document.getElementById('viewerImg').src = '/assets/photos/1x1' + photo.image;
     document.getElementById('photoCountry').textContent = photo.country;
     document.getElementById('photoUser').textContent = photo.userName ? 'Shared by ' + photo.userName : '';
     document.getElementById('photoStory').textContent = photo.story || '';
