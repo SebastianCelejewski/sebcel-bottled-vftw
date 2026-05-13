@@ -1,0 +1,25 @@
+{
+  "title": "Widok z okna",
+  "subtitle": "Zwyczajne codzienne widoki udostępniane przez ludzi z różnych części świata.",
+  "instruction": "Kliknij żółte punkty, aby zobaczyć, co ludzie widzą ze swoich domów.",
+
+  "aboutButton": "O projekcie",
+  "joinButton": "Jak dołączyć",
+  "privacyButton": "Prywatność",
+
+  "aboutTitle": "O projekcie",
+  "aboutText1": "Często znamy słynne miejsca z innych krajów, ale rzadko widzimy zwyczajne codzienne życie.",
+  "aboutText2": "Ten projekt zbiera małe fragmenty rzeczywistości widziane przez okna na całym świecie.",
+  "aboutText3": "Niektórzy widzą lasy. Inni bloki mieszkalne. Rzeki, dachy, deszcz, przewody elektryczne, ogrody albo ciche ulice.",
+  "aboutText4": "Każde zdjęcie jest zwyczajne — i właśnie o to chodzi.",
+
+  "joinTitle": "Jak dołączyć",
+  "joinText": "Zrób zdjęcie ze swojego okna, balkonu, podwórka albo codziennego otoczenia i wyślij je razem z nazwą swojego kraju.",
+
+  "privacyTitle": "Prywatność i bezpieczeństwo",
+  "privacy1": "Dokładna lokalizacja nigdy nie jest wymagana.",
+  "privacy2": "Możesz pozostać anonimowy.",
+  "privacy3": "To Ty decydujesz, ile informacji chcesz udostępnić.",
+  "privacy4": "Zbierane są minimalne anonimowe dane analityczne, aby zrozumieć, jak projekt jest używany.",
+  "privacy5": "Możesz później poprosić o usunięcie swojego zdjęcia."
+}
