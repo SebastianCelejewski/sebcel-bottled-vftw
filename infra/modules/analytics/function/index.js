@@ -15,7 +15,7 @@ exports.handler = async (event) => {
     `year=${now.getUTCFullYear()}` +
     `/month=${String(now.getUTCMonth() + 1).padStart(2, '0')}` +
     `/day=${String(now.getUTCDate()).padStart(2, '0')}` +
-    `/event=${eventName}` +
+    `/event_partition=${eventName}` +
     `/${crypto.randomUUID()}.json`;
 
   const payload = {

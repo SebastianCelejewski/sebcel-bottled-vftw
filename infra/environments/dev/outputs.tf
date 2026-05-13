@@ -22,3 +22,11 @@ output "mapbox_access_token" {
   value = module.frontend.mapbox_access_token
   sensitive = true
 }
+
+output "athena_database_name" {
+  value = module.analytics.athena_database_name
+}
+
+output "athena_workgroup_name" {
+  value = module.analytics.athena_workgroup_name
+}

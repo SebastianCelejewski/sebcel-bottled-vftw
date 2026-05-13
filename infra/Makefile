@@ -44,3 +44,15 @@ invalidate-dev:
 
 invalidate-prod:
 	aws cloudfront create-invalidation --distribution-id E2R8L4WX98I7GA --paths "/*"
+
+athena-repair-dev:
+	aws athena start-query-execution \
+		--work-group $$(terraform -chdir=environments/dev output -raw athena_workgroup_name) \
+		--query-string "MSCK REPAIR TABLE analytics_events;" \
+		--query-execution-context Database=$$(terraform -chdir=environments/dev output -raw athena_database_name)
+
+athena-repair-prod:
+	aws athena start-query-execution \
+		--work-group $$(terraform -chdir=environments/prod output -raw athena_workgroup_name) \
+		--query-string "MSCK REPAIR TABLE analytics_events;" \
+		--query-execution-context Database=$$(terraform -chdir=environments/prod output -raw athena_database_name)

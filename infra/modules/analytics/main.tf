@@ -143,3 +143,57 @@ resource "aws_lambda_permission" "apigw" {
   principal = "apigateway.amazonaws.com"
   source_arn = "${aws_apigatewayv2_api.analytics.execution_arn}/*/*"
 }
+
+resource "aws_s3_bucket" "athena_results" {
+
+  bucket = "sebcel-bottled-vftw-athena-results-${var.environment}"
+
+  tags = {
+    Name = "sebcel-bottled-vftw-athena-results-${var.environment}"
+    component = "analytics"
+  }
+}
+
+resource "aws_s3_bucket_lifecycle_configuration" "athena_results" {
+  bucket = aws_s3_bucket.athena_results.id
+
+  rule {
+    id = "delete-old-athena-results"
+    status = "Enabled"
+    filter {}
+    expiration {
+      days = 30
+    }
+  }
+}
+
+resource "aws_athena_database" "analytics" {
+  name = "vftw_analytics_${var.environment}"
+  bucket = aws_s3_bucket.athena_results.bucket
+}
+
+resource "aws_athena_workgroup" "analytics" {
+  name = "vftw-${var.environment}"
+  configuration {
+    enforce_workgroup_configuration = true
+    result_configuration {
+      output_location = "s3://${aws_s3_bucket.athena_results.bucket}/results/"
+    }
+  }
+
+  tags = {
+    component = "analytics"
+  }
+}
+
+resource "aws_athena_named_query" "analytics_events_table" {
+  name = "create-analytics-events-table"
+  database = aws_athena_database.analytics.name
+  workgroup = aws_athena_workgroup.analytics.name
+  query = templatefile(
+    "${path.module}/athena-table.sql.tpl",
+    {
+      analytics_bucket = aws_s3_bucket.analytics.bucket
+    }
+  )
+}
