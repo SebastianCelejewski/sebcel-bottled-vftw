@@ -74,7 +74,7 @@ resource "aws_cloudfront_distribution" "frontend" {
   }
 
   ordered_cache_behavior {
-    path_pattern = "/photos/*"
+    path_pattern = "/assets/photos/*"
 
     allowed_methods = [
       "GET",
