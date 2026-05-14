@@ -1,25 +1,28 @@
 {
   "title": "Vista da Janela",
-  "subtitle": "Vistas cotidianas compartilhadas por pessoas de diferentes partes do mundo.",
-  "instruction": "Clique nos pontos amarelos para descobrir o que as pessoas veem de suas casas.",
+  "subtitle": "Vistas comuns do cotidiano compartilhadas por pessoas de diferentes partes do mundo.",
+  "instruction": "Clique nos pontos amarelos para explorar o que as pessoas veem de suas casas.",
 
   "aboutButton": "Sobre o projeto",
   "joinButton": "Como participar",
   "privacyButton": "Privacidade",
 
   "aboutTitle": "Sobre o projeto",
-  "aboutText1": "Muitas vezes conhecemos lugares famosos de outros países, mas raramente vemos a vida cotidiana.",
+  "aboutText1": "Muitas vezes conhecemos lugares famosos de outros países, mas raramente vemos a vida cotidiana comum.",
   "aboutText2": "Este projeto reúne pequenos fragmentos da realidade vistos através de janelas ao redor do mundo.",
-  "aboutText3": "Algumas pessoas veem florestas. Outras prédios, rios, telhados, chuva, fios elétricos, jardins ou ruas tranquilas.",
-  "aboutText4": "Cada foto é comum — e esse é exatamente o objetivo.",
+  "aboutText3": "Algumas pessoas veem florestas. Outras prédios de apartamentos. Outras veem rios, telhados, chuva, fios elétricos, jardins ou ruas tranquilas.",
+  "aboutText4": "Cada foto é comum — e esse é exatamente o ponto.",
 
   "joinTitle": "Como participar",
-  "joinText": "Tire uma foto da sua janela, varanda, quintal ou arredores do dia a dia e envie junto com o nome do seu país.",
+  "joinText1": "Tire uma foto da vista cotidiana da sua janela, varanda, quintal ou arredores da sua casa.",
+  "joinText2": "Envie a foto para mim no Bottled junto com o local onde ela foi tirada. A localização exata é bem-vinda, mas você também pode compartilhar apenas sua cidade, região ou país — o que for mais confortável para você.",
+  "joinText3": "Fotos quadradas funcionam melhor, mas qualquer formato está bem. As fotos podem ser cortadas levemente para se ajustarem à galeria.",
+  "joinText4": "Por favor, adicione também algumas palavras sobre a vista. Às vezes, o que parece comum para outras pessoas é uma parte importante da vida cotidiana de alguém.",
 
   "privacyTitle": "Privacidade e segurança",
-  "privacy1": "A localização exata nunca é necessária.",
+  "privacy1": "A localização exata nunca é obrigatória.",
   "privacy2": "Você pode permanecer anônimo.",
   "privacy3": "Você decide quanta informação deseja compartilhar.",
   "privacy4": "Análises anônimas mínimas são coletadas para entender como o projeto é utilizado.",
-  "privacy5": "Você pode pedir a remoção da sua foto posteriormente."
+  "privacy5": "Você pode pedir que sua foto seja removida depois."
 }

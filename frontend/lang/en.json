@@ -14,7 +14,10 @@
   "aboutText4": "Every photo is ordinary — and that is exactly the point.",
 
   "joinTitle": "How to join",
-  "joinText": "Take a photo from your window, balcony, yard, or everyday surroundings and send it together with your country name.",
+  "joinText1": "Take a photo of the everyday view from your window, balcony, yard, or home surroundings.",
+  "joinText2": "Send the photo to me in Bottled together with the location where it was taken. Exact location is welcome, but you can also share only your city, region, or country — whatever feels comfortable to you.",
+  "joinText3": "Square photos work best, but any format is fine. Photos may be cropped slightly to fit the gallery.",
+  "joinText4": "Please also add a few words about the view. Sometimes what looks ordinary to other people is an important part of someone’s everyday life.",
 
   "privacyTitle": "Privacy & safety",
   "privacy1": "Exact location is never required.",

@@ -1,0 +1,28 @@
+{
+  "title": "Vue depuis la fenêtre",
+  "subtitle": "Des vues ordinaires du quotidien partagées par des personnes de différentes régions du monde.",
+  "instruction": "Cliquez sur les points jaunes pour découvrir ce que les gens voient depuis chez eux.",
+
+  "aboutButton": "À propos",
+  "joinButton": "Comment participer",
+  "privacyButton": "Confidentialité",
+
+  "aboutTitle": "À propos du projet",
+  "aboutText1": "Nous connaissons souvent les lieux célèbres d’autres pays, mais nous voyons rarement la vie quotidienne ordinaire.",
+  "aboutText2": "Ce projet rassemble de petits fragments de réalité vus à travers des fenêtres du monde entier.",
+  "aboutText3": "Certaines personnes voient des forêts. D’autres des immeubles. D’autres encore voient des rivières, des toits, la pluie, des fils électriques, des jardins ou des rues calmes.",
+  "aboutText4": "Chaque photo est ordinaire — et c’est précisément le but.",
+
+  "joinTitle": "Comment participer",
+  "joinText1": "Prenez une photo de la vue quotidienne depuis votre fenêtre, balcon, cour ou les alentours de votre maison.",
+  "joinText2": "Envoyez-moi la photo dans Bottled avec l’endroit où elle a été prise. La localisation exacte est la bienvenue, mais vous pouvez aussi partager seulement votre ville, région ou pays — selon ce qui vous met à l’aise.",
+  "joinText3": "Les photos carrées fonctionnent le mieux, mais tous les formats sont acceptés. Les photos peuvent être légèrement recadrées pour s’adapter à la galerie.",
+  "joinText4": "Veuillez aussi ajouter quelques mots à propos de cette vue. Parfois, ce qui semble ordinaire pour les autres est une partie importante de la vie quotidienne de quelqu’un.",
+
+  "privacyTitle": "Confidentialité et sécurité",
+  "privacy1": "La localisation exacte n’est jamais obligatoire.",
+  "privacy2": "Vous pouvez rester anonyme.",
+  "privacy3": "Vous décidez quelles informations partager.",
+  "privacy4": "Des statistiques anonymes minimales sont collectées pour comprendre comment le projet est utilisé.",
+  "privacy5": "Vous pouvez demander la suppression de votre photo plus tard."
+}

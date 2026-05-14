@@ -15,9 +15,7 @@ function initMap() {
     const mq = window.matchMedia('(pointer: coarse)');
 
     function updateDots() {
-
-        const pointSize = mq.matches ? 18 : 6;
-
+        const pointSize = Math.max(6, Math.min(18, window.innerWidth / 40));
         map.setPaintProperty('Dots', 'circle-radius', pointSize);
     }
 
@@ -26,19 +24,6 @@ function initMap() {
     map.on('load', () => {
 
         map.on('click', 'Dots', (e) => {
-
-            const properties = e.features[0].properties;
-
-            openViewer({
-                id: properties.PhotoId,
-                country: properties.Country,
-                image: properties.ImageKey,
-                userName: properties.UserName,
-                story: properties.Story
-            });
-        });
-
-        map.on('touchend', 'Dots', (e) => {
 
             const properties = e.features[0].properties;
 

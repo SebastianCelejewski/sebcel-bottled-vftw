@@ -1,25 +1,28 @@
 {
   "title": "Pemandangan dari Jendela",
-  "subtitle": "Pemandangan kehidupan sehari-hari yang dibagikan oleh orang-orang dari berbagai belahan dunia.",
-  "instruction": "Klik titik-titik kuning untuk melihat apa yang orang lihat dari rumah mereka.",
+  "subtitle": "Pemandangan sehari-hari biasa yang dibagikan oleh orang-orang dari berbagai belahan dunia.",
+  "instruction": "Klik titik kuning untuk melihat apa yang dilihat orang dari rumah mereka.",
 
   "aboutButton": "Tentang proyek",
   "joinButton": "Cara bergabung",
   "privacyButton": "Privasi",
 
   "aboutTitle": "Tentang proyek",
-  "aboutText1": "Kita sering mengenal tempat-tempat terkenal dari negara lain, tetapi jarang melihat kehidupan sehari-hari.",
+  "aboutText1": "Kita sering mengenal tempat-tempat terkenal dari negara lain, tetapi jarang melihat kehidupan sehari-hari biasa.",
   "aboutText2": "Proyek ini mengumpulkan potongan kecil kenyataan yang terlihat dari jendela di seluruh dunia.",
-  "aboutText3": "Ada yang melihat hutan. Ada yang melihat gedung apartemen, sungai, atap rumah, hujan, kabel listrik, taman, atau jalan yang tenang.",
-  "aboutText4": "Setiap foto terlihat biasa — dan itulah inti proyek ini.",
+  "aboutText3": "Sebagian orang melihat hutan. Sebagian melihat gedung apartemen. Sebagian lagi melihat sungai, atap rumah, hujan, kabel listrik, taman, atau jalan yang tenang.",
+  "aboutText4": "Setiap foto itu biasa saja — dan itulah inti dari proyek ini.",
 
   "joinTitle": "Cara bergabung",
-  "joinText": "Ambil foto dari jendela, balkon, halaman, atau lingkungan sehari-harimu lalu kirim bersama nama negaramu.",
+  "joinText1": "Ambil foto pemandangan sehari-hari dari jendela, balkon, halaman, atau sekitar rumahmu.",
+  "joinText2": "Kirim fotonya kepadaku di Bottled bersama lokasi tempat foto itu diambil. Lokasi yang tepat sangat diterima, tetapi kamu juga bisa hanya membagikan kota, wilayah, atau negaramu — sesuai dengan kenyamananmu.",
+  "joinText3": "Foto berbentuk persegi terlihat paling baik, tetapi format apa pun tidak masalah. Foto mungkin akan sedikit dipotong agar sesuai dengan galeri.",
+  "joinText4": "Tolong tambahkan juga beberapa kata tentang pemandangan itu. Kadang-kadang apa yang terlihat biasa bagi orang lain adalah bagian penting dari kehidupan sehari-hari seseorang.",
 
   "privacyTitle": "Privasi & keamanan",
   "privacy1": "Lokasi tepat tidak pernah diwajibkan.",
   "privacy2": "Kamu bisa tetap anonim.",
-  "privacy3": "Kamu menentukan sendiri informasi yang ingin dibagikan.",
-  "privacy4": "Analitik anonim minimal dikumpulkan untuk memahami bagaimana proyek digunakan.",
-  "privacy5": "Kamu bisa meminta fotomu dihapus kapan saja."
+  "privacy3": "Kamu menentukan sendiri seberapa banyak informasi yang ingin dibagikan.",
+  "privacy4": "Analitik anonim minimal dikumpulkan untuk memahami bagaimana proyek ini digunakan.",
+  "privacy5": "Kamu dapat meminta agar fotomu dihapus di kemudian hari."
 }

@@ -1,7 +1,7 @@
 {
   "title": "Vista desde la ventana",
   "subtitle": "Vistas cotidianas compartidas por personas de diferentes partes del mundo.",
-  "instruction": "Haz clic en los puntos amarillos para descubrir lo que la gente ve desde sus hogares.",
+  "instruction": "Haz clic en los puntos amarillos para explorar lo que la gente ve desde sus hogares.",
 
   "aboutButton": "Acerca del proyecto",
   "joinButton": "Cómo participar",
@@ -9,15 +9,18 @@
 
   "aboutTitle": "Acerca del proyecto",
   "aboutText1": "A menudo conocemos lugares famosos de otros países, pero rara vez vemos la vida cotidiana.",
-  "aboutText2": "Este proyecto recopila pequeños fragmentos de realidad vistos desde ventanas de todo el mundo.",
-  "aboutText3": "Algunas personas ven bosques. Otras edificios, ríos, tejados, lluvia, cables eléctricos, jardines o calles tranquilas.",
-  "aboutText4": "Cada foto es ordinaria, y precisamente esa es la idea.",
+  "aboutText2": "Este proyecto recopila pequeños fragmentos de realidad vistos a través de ventanas de todo el mundo.",
+  "aboutText3": "Algunas personas ven bosques. Otras bloques de apartamentos. Otras ven ríos, tejados, lluvia, cables eléctricos, jardines o calles tranquilas.",
+  "aboutText4": "Cada foto es ordinaria — y ese es exactamente el objetivo.",
 
   "joinTitle": "Cómo participar",
-  "joinText": "Toma una foto desde tu ventana, balcón, patio o entorno cotidiano y envíala junto con el nombre de tu país.",
+  "joinText1": "Toma una foto de la vista cotidiana desde tu ventana, balcón, patio o alrededores de tu hogar.",
+  "joinText2": "Envíame la foto en Bottled junto con la ubicación donde fue tomada. La ubicación exacta es bienvenida, pero también puedes compartir solo tu ciudad, región o país — lo que te resulte más cómodo.",
+  "joinText3": "Las fotos cuadradas funcionan mejor, pero cualquier formato está bien. Las fotos pueden recortarse ligeramente para ajustarse a la galería.",
+  "joinText4": "Por favor, añade también unas palabras sobre la vista. A veces lo que parece ordinario para otras personas es una parte importante de la vida cotidiana de alguien.",
 
   "privacyTitle": "Privacidad y seguridad",
-  "privacy1": "Nunca se requiere la ubicación exacta.",
+  "privacy1": "La ubicación exacta nunca es obligatoria.",
   "privacy2": "Puedes permanecer en el anonimato.",
   "privacy3": "Tú decides cuánta información compartir.",
   "privacy4": "Se recopilan análisis anónimos mínimos para entender cómo se utiliza el proyecto.",

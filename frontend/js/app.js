@@ -1,4 +1,3 @@
-track('page_view');
 async function start() {
 
     await initLanguage('en');
@@ -6,10 +5,9 @@ async function start() {
     initMap();
     initViewer();
     initOverlays();
+    initHeroToggle();
 
     track('page_view');
-
-    initHeroToggle();
 }
 
 function initHeroToggle() {

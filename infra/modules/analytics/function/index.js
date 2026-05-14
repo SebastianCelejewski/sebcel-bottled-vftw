@@ -9,6 +9,8 @@ exports.handler = async (event) => {
   const now = new Date();
   const sourceIp = event.requestContext?.http?.sourceIp || null;
 
+  const userAgent = event.requestContext?.http?.userAgent || event.headers?.['user-agent'] || null;
+
   const eventName = body.event || "unknown";
 
   const key =
@@ -21,6 +23,7 @@ exports.handler = async (event) => {
   const payload = {
     receivedAt: now.toISOString(),
     sourceIp,
+    userAgent,
     ...body
   };
 

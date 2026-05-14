@@ -2,8 +2,11 @@ let translations = {};
 let currentLanguage = null;
 
 async function initLanguage(lang) {
+        
     const response = await fetch(`lang/${lang}.json`);
     translations = await response.json();
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
 
     document.getElementById('heroTitle').textContent = translations.title;
     document.getElementById('subtitle').textContent = translations.subtitle;
@@ -27,7 +30,10 @@ async function initLanguage(lang) {
         btn.onclick = () => {
             const newLanguage = btn.dataset.lang;
             if (currentLanguage && currentLanguage !== newLanguage) {
-                track("language_changed", {from: currentLanguage, to: newLanguage});
+                track('language_changed', {
+                    previousLanguage: currentLanguage,
+                    selectedLanguage: newLanguage
+                });
             }
             initLanguage(newLanguage);
         };

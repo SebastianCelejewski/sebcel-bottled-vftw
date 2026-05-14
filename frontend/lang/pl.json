@@ -10,16 +10,19 @@
   "aboutTitle": "O projekcie",
   "aboutText1": "Często znamy słynne miejsca z innych krajów, ale rzadko widzimy zwyczajne codzienne życie.",
   "aboutText2": "Ten projekt zbiera małe fragmenty rzeczywistości widziane przez okna na całym świecie.",
-  "aboutText3": "Niektórzy widzą lasy. Inni bloki mieszkalne. Rzeki, dachy, deszcz, przewody elektryczne, ogrody albo ciche ulice.",
+  "aboutText3": "Niektórzy widzą lasy. Inni bloki mieszkalne. Jeszcze inni rzeki, dachy, deszcz, przewody elektryczne, ogrody albo spokojne ulice.",
   "aboutText4": "Każde zdjęcie jest zwyczajne — i właśnie o to chodzi.",
 
   "joinTitle": "Jak dołączyć",
-  "joinText": "Zrób zdjęcie ze swojego okna, balkonu, podwórka albo codziennego otoczenia i wyślij je razem z nazwą swojego kraju.",
+  "joinText1": "Zrób zdjęcie codziennego widoku ze swojego okna, balkonu, podwórka albo okolicy domu.",
+  "joinText2": "Wyślij mi zdjęcie w Bottled razem z lokalizacją, w której zostało zrobione. Dokładna lokalizacja jest mile widziana, ale możesz też podać tylko miasto, region albo kraj — cokolwiek jest dla Ciebie komfortowe.",
+  "joinText3": "Najlepiej sprawdzają się zdjęcia kwadratowe, ale każdy format jest w porządku. Zdjęcia mogą zostać lekko przycięte, aby pasowały do galerii.",
+  "joinText4": "Dodaj też kilka słów o tym widoku. Czasami to, co dla innych wygląda zwyczajnie, jest ważną częścią czyjegoś codziennego życia.",
 
   "privacyTitle": "Prywatność i bezpieczeństwo",
   "privacy1": "Dokładna lokalizacja nigdy nie jest wymagana.",
   "privacy2": "Możesz pozostać anonimowy.",
   "privacy3": "To Ty decydujesz, ile informacji chcesz udostępnić.",
-  "privacy4": "Zbierane są minimalne anonimowe dane analityczne, aby zrozumieć, jak projekt jest używany.",
+  "privacy4": "Minimalne anonimowe statystyki są zbierane, aby zrozumieć, jak projekt jest używany.",
   "privacy5": "Możesz później poprosić o usunięcie swojego zdjęcia."
 }
