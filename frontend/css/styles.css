@@ -1,10 +1,8 @@
 :root {
     --panel-bg: rgba(17, 24, 39, 0.88);
     --panel-border: rgba(255,255,255,0.08);
-
     --text-main: #f5f5f4;
     --text-soft: #d6d3d1;
-
     --accent: #facc15;
 }
 
@@ -15,9 +13,7 @@
 body {
     margin: 0;
     overflow: hidden;
-
     font-family: Inter, system-ui, sans-serif;
-
     background: #0f172a;
     color: var(--text-main);
 }
@@ -31,27 +27,17 @@ body {
 
 #hero {
     position: absolute;
-
     top: 24px;
     left: 24px;
-
     width: min(420px, calc(100vw - 32px));
-
     background: var(--panel-bg);
-
     backdrop-filter: blur(12px);
-
     border: 1px solid var(--panel-border);
     border-radius: 20px;
-
     padding: 22px;
-
     z-index: 3;
-
     box-shadow: 0 10px 40px rgba(0,0,0,0.35);
-
     animation: fadeIn 0.8s ease;
-
     transition:
         transform 0.3s ease,
         opacity 0.3s ease,
@@ -60,22 +46,16 @@ body {
 }
 
 #hero.collapsed {
-
     width: auto;
-
     padding:
         10px 48px
         10px 16px;
-
     border-radius: 16px;
 }
 
 #hero.collapsed h1 {
-
     margin: 0;
-
     font-size: 20px;
-
     white-space: nowrap;
 }
 
@@ -86,41 +66,29 @@ body {
 }
 
 #heroToggle {
-
     position: absolute;
-
     top: 10px;
     right: 10px;
-
     width: 28px;
     height: 28px;
-
     border: none;
     border-radius: 10px;
-
     background: rgba(255,255,255,0.08);
-
     color: white;
-
     font-size: 18px;
     font-weight: 600;
-
     cursor: pointer;
-
     transition:
         background 0.2s ease,
         transform 0.2s ease;
 }
 
 #heroToggle:hover {
-
     background: rgba(255,255,255,0.16);
-
     transform: scale(1.05);
 }
 
 @keyframes fadeIn {
-
     from {
         opacity: 0;
         transform: translateY(8px);
@@ -134,56 +102,40 @@ body {
 
 h1 {
     margin: 0;
-
     font-size: clamp(28px, 4vw, 42px);
     line-height: 1.05;
-
     font-weight: 700;
 }
 
 #subtitle {
     margin-top: 14px;
-
     color: var(--text-soft);
-
     line-height: 1.6;
     font-size: 16px;
 }
 
 #instruction {
     margin-top: 18px;
-
     padding: 12px 14px;
-
     border-radius: 12px;
-
     background: rgba(250, 204, 21, 0.12);
-
     color: #fde68a;
-
     font-size: 15px;
     line-height: 1.5;
 }
 
 .dot {
     display: inline-block;
-
     width: 10px;
     height: 10px;
-
     border-radius: 50%;
-
     background: var(--accent);
-
     margin-right: 8px;
-
     box-shadow: 0 0 12px rgba(250, 204, 21, 0.7);
-
     animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-
     0% {
         transform: scale(1);
         opacity: 1;
@@ -204,29 +156,20 @@ h1 {
 
 #buttons {
     display: flex;
-
     gap: 10px;
     flex-wrap: wrap;
-
     margin-top: 20px;
 }
 
 .btn,
 .langBtn {
-
     border: none;
     border-radius: 12px;
-
     padding: 10px 14px;
-
     background: rgba(255,255,255,0.08);
-
     color: white;
-
     cursor: pointer;
-
     font-size: 14px;
-
     transition:
         background 0.2s ease,
         transform 0.2s ease;
@@ -234,38 +177,27 @@ h1 {
 
 .btn:hover,
 .langBtn:hover {
-
     background: rgba(255,255,255,0.16);
-
     transform: translateY(-1px);
 }
 
 .langBtn.active {
-
     background: rgba(250, 204, 21, 0.16);
-
     color: #fde68a;
 }
 
 /* LANGUAGE SWITCHER */
 
 #langSwitcher {
-
     position: absolute;
-
     top: 24px;
     right: 24px;
-
     z-index: 3;
-
     display: flex;
     gap: 10px;
-
     overflow-x: auto;
     flex-wrap: nowrap;
-
     max-width: calc(100vw - 48px);
-
     scrollbar-width: none;
 }
 
@@ -276,18 +208,13 @@ h1 {
 /* VIEWER */
 
 #viewer {
-
     position: fixed;
     inset: 0;
-
     background: rgba(0,0,0,0.92);
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     z-index: 10;
-
     padding: 20px;
 }
 
@@ -296,26 +223,17 @@ h1 {
 }
 
 #photoCard {
-
     width: min(920px, 100%);
-
     background: #111827;
-
     border-radius: 24px;
-
     overflow: hidden;
-
     box-shadow: 0 20px 60px rgba(0,0,0,0.45);
 }
 
 #viewerImg {
-
     width: 100%;
-
     max-height: 72vh;
-
     object-fit: contain;
-
     background: black;
 }
 
@@ -323,98 +241,65 @@ h1 {
     padding: 20px;
 }
 
-#photoCountry {
-
+#photoLocation {
     font-size: 28px;
     font-weight: 600;
 }
 
 #photoUser {
-
     margin-top: 8px;
-
     color: #cbd5e1;
-
     font-size: 15px;
 }
 
-#photoStory {
-
+#photoDescription {
     margin-top: 14px;
-
-    line-height: 1.7;
-    font-size: 16px;
-
-    color: #e5e7eb;
+    font-size: 15px;
+    line-height: 1.5;
+    opacity: 0.9;
 }
-
 #closeBtn {
-
     position: absolute;
-
     top: 18px;
     right: 20px;
-
     width: 44px;
     height: 44px;
-
     border-radius: 50%;
     border: none;
-
     background: rgba(255,255,255,0.1);
-
     color: white;
-
     font-size: 24px;
-
     cursor: pointer;
 }
 
 /* OVERLAYS */
 
 .overlay {
-
     position: fixed;
     inset: 0;
-
     background: rgba(0,0,0,0.84);
-
     z-index: 9;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     padding: 20px;
 }
 
 .overlayCard {
-
     width: min(760px, 100%);
-
     max-height: 85vh;
-
     overflow-y: auto;
-
     background: #111827;
-
     border-radius: 24px;
-
     padding: 28px;
-
     line-height: 1.8;
-
     color: #e5e7eb;
-
     box-shadow: 0 20px 60px rgba(0,0,0,0.45);
 }
 
 .overlayCard h2 {
-
     margin-top: 0;
-
     color: white;
-
     font-size: 32px;
 }
 
@@ -429,33 +314,25 @@ h1 {
 /* MOBILE */
 
 @media (max-width: 768px) {
-
     #hero {
-
         top: 56px;
         left: 12px;
         right: 12px;
-
         width: auto;
-
         padding: 18px;
     }
 
     #hero.collapsed {
-
         left: 12px;
         right: auto;
-
         width: auto;
     }
 
     #langSwitcher {
-
         top: auto;
         bottom: 12px;
         left: 12px;
         right: 12px;
-
         justify-content: flex-start;
     }
 
@@ -471,11 +348,11 @@ h1 {
         font-size: 14px;
     }
 
-    #photoCountry {
+    #photoLocation {
         font-size: 22px;
     }
 
-    #photoStory {
+    #photoDescription {
         font-size: 15px;
     }
 

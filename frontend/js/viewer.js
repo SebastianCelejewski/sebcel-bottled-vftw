@@ -10,9 +10,21 @@ function initViewer() {
 
 function openViewer(photo) {
     document.getElementById('viewerImg').src = '/assets/photos/1x1' + photo.image;
-    document.getElementById('photoCountry').textContent = photo.country;
+    if (photo.city) {
+        document.getElementById('photoLocation').textContent = photo.city + ', ' + photo.country;
+    } else {
+        document.getElementById('photoLocation').textContent = photo.country;
+    }
+    
     document.getElementById('photoUser').textContent = photo.userName ? 'Shared by ' + photo.userName : '';
-    document.getElementById('photoStory').textContent = photo.story || '';
+    
+    if (photo.description) {
+        document.getElementById('photoDescription').textContent = photo.description || '';
+        document.getElementById('photoDescription').style.display = 'block';
+    } else {
+        document.getElementById('photoDescription').style.display = 'none';
+    }
+
     document.getElementById('viewer').classList.remove('hidden');
 
     track('photo_opened', {

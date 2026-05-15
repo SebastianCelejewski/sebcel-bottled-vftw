@@ -30,9 +30,10 @@ function initMap() {
             openViewer({
                 id: properties.PhotoId,
                 country: properties.Country,
+                city: properties.City,
                 image: properties.ImageKey,
-                userName: properties.UserName,
-                story: properties.Story
+                userName: properties.Username,
+                description: properties.Description
             });
         });
 
